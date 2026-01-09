@@ -7,6 +7,8 @@ This repository explores POSIX-based concurrency through two MapReduce-style pro
 It includes thread-based (pthreads) and process-based (fork + IPC/shared memory) implementations and a short empirical analysis of correctness, scalability, runtime, and memory trade-offs.
 
 > **Experimental note:** Results below were measured on a single local machine and are intended for comparative/educational analysis rather than universal benchmarking.
+> **Platform Notes:** This project targets POSIX-compliant systems and was developed and tested on Ubuntu Linux. Native Windows is not supported; WSL can be used instead.
+
 
 ---
 
