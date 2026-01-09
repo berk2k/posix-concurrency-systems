@@ -86,6 +86,17 @@ Each child process computes a local maximum and updates a shared-memory integer 
 
 ---
 
+## Learning Outcomes
+
+Through this project, the following systems-level concepts were explored and applied:
+
+- Practical differences between thread-based and process-based parallelism on POSIX systems
+- Impact of synchronization and merge overhead on scalability for parallel workloads
+- Correctness challenges in shared-memory concurrency and the role of mutexes and atomic operations
+- Trade-offs between performance, memory usage, and isolation in OS-level concurrency models
+- Effects of workload granularity on parallel efficiency
+
+
 ## Build & Run
 
 The programs can be compiled using `gcc` on a POSIX-compatible system.
